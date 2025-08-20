@@ -86,6 +86,14 @@ For the best development experience, we recommend using **[Visual Studio Code](h
    - Open Start Menu and search for "Developer Command Prompt for VS 2022"
    - If found, the installation is complete
 
+3. **Set Up PATH for cl.exe (Optional but Recommended)**
+   - **Option A**: Use Developer Command Prompt (automatically sets PATH)
+   - **Option B**: Add Visual Studio tools to system PATH manually:
+     - Find your Visual Studio installation path (typically `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\[version]\bin\Hostx64\x64`)
+     - Add this path to your system PATH environment variable
+     - Also add: `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build`
+   - **Option C**: Use the provided `build_vs2022.bat` script (automatically sets PATH)
+
 ### Project Setup
 
 1. **Clone or Download the Project**
@@ -284,12 +292,17 @@ This project demonstrates:
 ### Common Issues
 
 1. **"cl is not recognized"**
-   - Use Developer Command Prompt for VS 2022
-   - Or run `build_vs2022.bat`
+   - **Solution A**: Use Developer Command Prompt for VS 2022 (automatically sets PATH)
+   - **Solution B**: Run `build_vs2022.bat` (automatically sets PATH)
+   - **Solution C**: Manually add Visual Studio tools to system PATH:
+     - Add `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\[version]\bin\Hostx64\x64` to PATH
+     - Add `C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build` to PATH
+     - Restart your terminal/command prompt after modifying PATH
 
 2. **"iostream: no include path set"**
    - Visual Studio environment not configured
    - Run `build_vs2022.bat` or use Developer Command Prompt
+   - Ensure PATH includes Visual Studio include directories
 
 3. **Build failures**
    - Ensure C++17 support is enabled

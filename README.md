@@ -56,6 +56,23 @@ LinkedList/
 - **C++ Standard**: C++17 or later
 - **Build Tools**: Visual Studio Build Tools or full Visual Studio installation
 
+## 💻 Recommended Editor
+
+For the best development experience, we recommend using **[Visual Studio Code](https://code.visualstudio.com/)** (VS Code) as your code editor:
+
+- **Free and Open Source**: Available for Windows, macOS, and Linux
+- **Excellent C++ Support**: Built-in IntelliSense, debugging, and IntelliCode
+- **Rich Extension Ecosystem**: C/C++ extension by Microsoft provides advanced features
+- **Integrated Terminal**: Built-in terminal for running build scripts and commands
+- **Git Integration**: Built-in source control management
+- **Lightweight**: Fast startup and efficient resource usage
+
+**VS Code Extensions for C++ Development:**
+- **C/C++** by Microsoft - Essential C++ language support
+- **C/C++ Extension Pack** - Complete C++ development toolkit
+- **CMake Tools** - CMake integration and project management
+- **Code Runner** - Quick code execution
+
 ## 🛠️ Setup Instructions
 
 ### Prerequisites

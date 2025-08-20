@@ -1,0 +1,194 @@
+# C++ Build Artifacts
+*.exe
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.map
+*.res
+*.rc
+*.def
+*.manifest
+
+# Executables
+LinkedList.exe
+test.exe
+*.exe
+
+# Object Files
+*.obj
+*.o
+
+# Libraries
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+
+# Debug Files
+*.pdb
+*.ilk
+*.exp
+*.map
+
+# Visual Studio Files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# CMake Build Files
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Makefile Build Files
+*.d
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+*.old
+
+# Compiler Generated Files
+*.gch
+*.pch
+
+# Dependency Files
+*.d
+
+# Test Output
+test_results/
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# Package Files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Documentation Build
+docs/build/
+docs/_build/
+
+# Backup Files
+*~
+*.orig
+*.rej
+
+# Local Configuration
+config.local
+settings.local
+.env.local
+
+# User-specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Performance Profiling
+*.prof
+*.gprof
+*.callgrind
+
+# Memory Profiling
+*.massif
+*.ps
+*.txt
+
+# Static Analysis
+*.plist
+*.xml
+*.json
+
+# Code Coverage
+*.gcov
+*.gcda
+*.gcno
+*.info
+
+# Profiling
+*.prof
+*.gprof
+*.callgrind
+*.massif
+*.ps
+*.txt
+
+# Documentation
+docs/_build/
+docs/build/
+*.pdf
+*.doc
+*.docx
+
+# Archive Files
+*.tar
+*.tar.gz
+*.tar.bz2
+*.zip
+*.rar
+*.7z
+
+# Backup and Temporary
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*~
